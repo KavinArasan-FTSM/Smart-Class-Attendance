@@ -16,24 +16,26 @@ This project is a **real-time classroom attendance tracking system** using a mac
 
 ## Folder Structure
 
-Real-Time-Classroom-Attendance-Tracking-System/
-│
-├── src/
-│   └── face_detection.py      # Main Flask application
-│
-├── templates/
-│   ├── index.html             # Home page
-│   └── register.html          # Registration page
-│
-├── static/                    # Optional static assets (CSS/images)
-│   └── background.jpg         # Background image
-│
-├── uploads/                   # Uploaded student photos (auto-created)
-├── .gitignore                 # Files/folders to ignore in Git
+```bash
+├── app
+│   ├── css
+│   │   ├── **/*.css
+│   ├── favicon.ico
+│   ├── images
+│   ├── index.html
+│   ├── js
+│   │   ├── **/*.js
+│   └── partials/template
+├── dist (or build)
+├── node_modules
+├── bower_components (if using bower)
+├── test
+├── Gruntfile.js/gulpfile.js
 ├── README.md
-├── LICENSE
-├── students.csv               # Student database (auto-created)
-└── face_encodings.pkl         # Stored face encodings (auto-created)
+├── package.json
+├── bower.json (if using bower)
+└── .gitignore
+```
 
 ---
 
