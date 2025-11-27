@@ -43,7 +43,7 @@ Real-Time-Classroom-Attendance-Tracking-System/
 
 ## Installation
 
-1. **Clone the repository:**
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/Real-Time-Classroom-Attendance-Tracking-System.git
@@ -68,9 +68,10 @@ face_recognition
 pandas
 numpy
 werkzeug
+
 ---
 
-Usage
+**Usage**
 
 1. Run the Flask application:
 python src/face_detection.py
