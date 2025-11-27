@@ -19,21 +19,21 @@ This project is a **real-time classroom attendance tracking system** using a mac
 Real-Time-Classroom-Attendance-Tracking-System/
 │
 ├── src/
-│ └── face_detection.py # Main Flask application
+│   └── face_detection.py      # Main Flask application
 │
 ├── templates/
-│ ├── index.html # Home page
-│ └── register.html # Registration page
+│   ├── index.html             # Home page
+│   └── register.html          # Registration page
 │
-├── static/ # Optional static assets (CSS/images)
-│ └── background.jpg # Background image
+├── static/                    # Optional static assets (CSS/images)
+│   └── background.jpg         # Background image
 │
-├── uploads/ # Uploaded student photos (auto-created)
-├── .gitignore # Files/folders to ignore in Git
+├── uploads/                   # Uploaded student photos (auto-created)
+├── .gitignore                 # Files/folders to ignore in Git
 ├── README.md
 ├── LICENSE
-├── students.csv # Student database (auto-created)
-├── face_encodings.pkl # Stored face encodings (auto-created)
+├── students.csv               # Student database (auto-created)
+└── face_encodings.pkl         # Stored face encodings (auto-created)
 
 ---
 
