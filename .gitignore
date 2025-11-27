@@ -1,0 +1,14 @@
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore runtime folders
+uploads/
+students.csv
+face_encodings.pkl
